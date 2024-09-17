@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- <body> main wrapper -->
+    <section class="main--container">
+      <h1>Post UTME Screening Test</h1>
+
+      <form>
+        <!-- Question one starts -->
+        <i>Question one</i>
+        <fieldset>
+          <legend>Who is the incumbent President of Nigeria?</legend>
+          <label>
+            <input type="radio" name="president" value="Goodluck Jonathan" />
+            Goodluck Jonathan
+          </label>
+          <label>
+            <input type="radio" name="president" value="Bola Ahmed Tinubu" />
+            Bola Ahmed Tinubu
+          </label>
+          <label>
+            <input type="radio" name="president" value="Muhammadu Buhari" />
+            Muhammadu Buhari
+          </label>
+        </fieldset>
+
+        <!-- Question two starts here -->
+        <i>Question two</i>
+        <fieldset>
+          <legend>Which of these countries colonised Nigeria?</legend>
+          <label>
+            <input type="radio" name="colonised" value="Japan" />
+            Japan
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="colonised"
+              value="United States of America"
+            />
+            United States of America
+          </label>
+          <label>
+            <input type="radio" name="colonised" value="Britain" />
+            Britain
+          </label>
+        </fieldset>
+
+        <!-- Question three starts -->
+        <i>Question three</i>
+        <fieldset>
+          <legend>
+            Which of these countries hosted the 2022 FIFA World Cup?
+          </legend>
+          <label>
+            <input type="radio" name="worldcup" value="Russia" />
+            Russia
+          </label>
+          <label>
+            <input type="radio" name="worldcup" value="Brazil" />
+            Brazil
+          </label>
+          <label>
+            <input type="radio" name="worldcup" value="Qatar" />
+            Qatar
+          </label>
+        </fieldset>
+        <span
+          ><button id="submit--btn" type="submit">Submit</button>
+          <button id="reset--btn" type="reset">Reset</button>
+        </span>
+      </form>
+
+      <script src="/dom-project-one.js"></script>
+    </section>
+  </body>
+</html>
